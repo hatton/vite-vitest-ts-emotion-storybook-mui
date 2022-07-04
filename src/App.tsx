@@ -5,6 +5,8 @@ import "./App.css";
 /** @jsxImportSource @emotion/react */
 import { css } from "@emotion/react";
 
+import Button from "@material-ui/core/Button";
+
 function App() {
   const [count, setCount] = useState(0);
 
@@ -19,6 +21,7 @@ function App() {
         >
           Hello Vite + React!
         </p>
+        <Button variant="contained">MUI Button</Button>
         <p>
           <button type="button" onClick={() => setCount((count) => count + 1)}>
             count is: {count}
