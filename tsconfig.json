@@ -15,7 +15,8 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
-    "types": [ "@emotion/react/types/css-prop"],
+   // "types": [ "@emotion/core", "@emotion/react/types/css-prop"]  <-- don't actually work
+    "jsxImportSource": "@emotion/react",
   },
-  "include": ["src"],
+  "include": ["src"]
 }

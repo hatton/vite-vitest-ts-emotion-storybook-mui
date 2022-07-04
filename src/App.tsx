@@ -2,7 +2,6 @@ import { useState } from "react";
 import logo from "./logo.svg";
 import "./App.css";
 
-/** @jsxImportSource @emotion/react */
 import { css } from "@emotion/react";
 
 import Button from "@material-ui/core/Button";
@@ -19,7 +18,7 @@ function App() {
             color: red;
           `}
         >
-          Hello Vite + React!
+          Styled by emotion css prop
         </p>
         <Button variant="contained">MUI Button</Button>
         <p>
